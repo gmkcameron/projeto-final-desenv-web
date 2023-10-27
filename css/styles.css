@@ -5,19 +5,23 @@ body {
     background-color: #f0f0f0;
 }
 
-/* Estilo para o cabeçalho */
 header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    position: fixed; /* Define a posição como fixa */
+    top: 0; /* Coloca o cabeçalho no topo da janela do navegador */
+    left: 0;
+    right: 0; /* Largura de 100% para ocupar toda a largura */
+    z-index: 1; /* Define uma sobreposição para o cabeçalho, se necessário */
 }
 
 .imagens {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     max-width: 100%;
-    height: auto;
+    height:auto;
     border: 1px solid #000;
 }
 
@@ -51,6 +55,7 @@ nav ul li {
 main {
     flex-grow: 1;
     padding: 20px; /* Espaçamento do conteúdo principal */
+    margin-top: 300px; /* Ajusta a margem superior */
 }
 
 .post {
@@ -62,7 +67,8 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
-    color: white;
+    color: white;  
+    margin-bottom: 70px; /* Espaço para acomodar o footer */
 }
 
 /* Estilos para comentários;
