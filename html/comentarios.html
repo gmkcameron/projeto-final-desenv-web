@@ -1,0 +1,52 @@
+<!-- Falta verificar e ajeitar; tb armazenar em DB e validar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <title>Comentários</title>
+</head>
+<body>
+    <header>
+        <h1>Deixe seu comentário aqui!</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Comentários</h2>
+
+            <!-- Comentário 1 -->
+            <div class="comment">
+                <img src="/img/avatar1.jpeg" alt="Avatar do Comentador 1">
+                <div class="comment-content">
+                    <p><strong>Nome do Comentador 1</strong> - Data do Comentário</p>
+                    <p>Este é o conteúdo do primeiro comentário. Pode ser mais longo e incluir parágrafos.</p>
+                </div>
+            </div>
+
+            <!-- Comentário 2 -->
+            <div class="comment">
+                <img src="/img/avatar2.jpeg" alt="Avatar do Comentador 2">
+                <div class="comment-content">
+                    <p><strong>Nome do Comentador 2</strong> - Data do Comentário</p>
+                    <p>Este é o conteúdo do segundo comentário.</p>
+                </div>
+            </div>
+
+            <!-- Formulário de Comentário -->
+            <div class="comment-form">
+                <h3>Deixe um Comentário</h3>
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="comentario">Comentário:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                    <button type="submit">Enviar Comentário</button>
+                </form>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
