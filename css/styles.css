@@ -19,7 +19,7 @@ header {
 
 .imagens {
     display: block;
-    margin: auto;
+    margin: 20px auto 0;
     max-width: 100%;
     height:auto;
     border: 1px solid #000;
@@ -27,6 +27,7 @@ header {
 
 h2 {
     text-align: center;
+    max-width: 100%;
 }
 
 p {
